@@ -123,5 +123,14 @@ Again in frontend folder:
 ![image](https://github.com/gbogguru/frontend/assets/42975193/35fedb0d-b370-4266-b148-e89d96771469)
 
 
+docker push gajendramu/frontend
 
+In another machine, 
+need to install the docker like above steps or earlier way and run the below command.
+//docker run -p 80:80 -d gajendramu/frontend
+
+docker run --pull always -p 80:80 -d gajendramu/frontend
+![image](https://github.com/gbogguru/frontend/assets/42975193/ee6d3ade-c1b0-4919-8bf2-71921c460e52)
+
+and run that image in that instance.
 
