@@ -115,5 +115,22 @@ Login docker with user id and password:
 ![image](https://github.com/gbogguru/learn-docker/assets/42975193/70886fa7-63c8-4ba5-9699-8b4ca9d6e2d8)
 
 
+Again in frontend folder:
 
+![image](https://github.com/gbogguru/frontend/assets/42975193/be9001ba-2055-4da5-a0f4-32e73d4a587c)
+
+
+![image](https://github.com/gbogguru/frontend/assets/42975193/35fedb0d-b370-4266-b148-e89d96771469)
+
+
+docker push gajendramu/frontend
+
+In another machine, 
+need to install the docker like above steps or earlier way and run the below command.
+//docker run -p 80:80 -d gajendramu/frontend
+
+docker run --pull always -p 80:80 -d gajendramu/frontend
+![image](https://github.com/gbogguru/frontend/assets/42975193/ee6d3ade-c1b0-4919-8bf2-71921c460e52)
+
+and run that image in that instance.
 
